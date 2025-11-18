@@ -16,3 +16,6 @@ target_link_libraries(test_axpy PRIVATE objblas)
 
 add_executable(axpy_perf test/axpy_perf.f90)
 target_link_libraries(axpy_perf PRIVATE objblas)
+
+add_executable(axpy_scaling test/axpy_scaling.f90)
+target_link_libraries(axpy_scaling PRIVATE objblas)
